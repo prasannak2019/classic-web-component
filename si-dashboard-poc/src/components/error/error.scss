@@ -1,0 +1,21 @@
+@import '../../global/app.scss';
+.errors {
+  color: #a31000;
+  margin: 15px;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.errorIcon {
+  float: left;
+  width: 35px;
+}
+.errorMsg {
+  float: left;
+  width: calc(100% - 35px)
+}
+
+.center {
+    text-align: center;
+}

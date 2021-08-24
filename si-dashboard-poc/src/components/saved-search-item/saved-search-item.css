@@ -1,0 +1,124 @@
+@import '../../global/app.scss';
+:host {
+  display: block;
+}
+/* Choose the symbol, image or numeric for the bullet points on the list: */
+
+/* SYMBOLS and NUMERICS */
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type:decimal;
+}
+
+
+/* IMAGES: */
+
+li {
+  margin: 0;
+  padding: 15px 0 15px 60px;
+  list-style: none;
+
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 30px;
+  size: 40px;
+}
+
+
+
+/* Define the color of each bullet point on the list */
+
+ul {
+  list-style: none; /* Remove list bullets */
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding-left: 16px;
+}
+.border-item {
+  padding-left: 5px;
+  border: 1px solid #DDDDDD;
+  border-radius: 5px;
+  padding-right: 5px;
+}
+
+li:before {
+  content: "•";         /* Insert content that looks like bullets */
+  padding-right: 8px;
+  color: blue;
+}
+
+
+.ssItem a {
+  text-decoration: none;
+}
+
+.ssItem {
+  margin: 10px 4px;
+}
+
+.center {
+  text-align: center;
+}
+
+.newSS {
+  background-color: #469838;
+  border: 1px solid #469838;
+  padding: 0 6px 1px;
+  border-radius: 10px;
+  text-align: center;
+  text-overflow: ellipsis;
+  color: #ffffff;
+  font-size: 12px !important;
+}
+
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2px;
+}
+
+
+.plus {
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.rightAlign {
+  text-align: right;
+}
+
+
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2px;
+}
+
+
+
+.rightAlign {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 35px;
+  margin-top: 10px;
+}
